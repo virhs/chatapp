@@ -1,0 +1,65 @@
+nav img{
+    display: block;
+    margin: auto;
+    height: 100px;
+    width: 100px;
+}
+
+nav p{
+    text-align: center;
+    color: orange;
+    font-weight: bold;
+}
+
+.container{
+    border: 2px solid black;
+    width: 950px;
+    margin: auto;
+    height: 400px;
+    background-color: rgb(233, 188, 149);
+    overflow-y: auto;
+}
+.leftmsg{
+    border: 2px solid rgb(0, 0, 0);
+    width: 288px;
+    margin: 4px;
+    float: left;
+    clear: both;
+    padding: 5px;
+    border-radius: 4px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(7, 7, 7);
+}
+.rightmsg{
+    border: 2px solid rgb(0, 0, 0);
+    width: 288px;
+    margin: 4px;
+    float: right;
+    clear: both;
+    padding: 5px;
+    border-radius: 4px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+
+form {
+    text-align: center;
+    margin: auto;
+    margin-top: 5px;
+    
+}
+input{
+    width: 350px;
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.btn{
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.btn:hover{
+    cursor: pointer;
+}
